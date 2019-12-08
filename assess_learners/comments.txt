@@ -1,0 +1,67 @@
+<pre>--- Summary ---
+Tests passed: 8 out of 18
+
+--- Details ---
+Test #0: passed 
+Test #1: passed 
+Test #2: passed 
+Test #3: passed 
+Test #4: passed 
+Test #5: passed 
+Test #6: passed 
+Test #7: passed 
+Test #8: failed 
+Description: Test Case 01: Bagging (group: BagLearner)
+NameError: name 'y_forecast_array' is not defined
+
+Test #9: failed 
+Description: Test Case 02: Bagging (group: BagLearner)
+NameError: name 'y_forecast_array' is not defined
+
+Test #10: failed 
+Description: Test Case 03: Bagging (group: BagLearner)
+NameError: name 'y_forecast_array' is not defined
+
+Test #11: failed 
+Description: Test Case 04: Bagging (group: BagLearner)
+NameError: name 'y_forecast_array' is not defined
+
+Test #12: failed 
+Description: Test Case 05: Bagging (group: BagLearner)
+NameError: name 'y_forecast_array' is not defined
+
+Test #13: failed 
+Description: Test Case 06: Bagging (group: BagLearner)
+NameError: name 'y_forecast_array' is not defined
+
+Test #14: failed 
+Description: Test Case 07: Bagging (group: BagLearner)
+NameError: name 'y_forecast_array' is not defined
+
+Test #15: failed 
+Description: Test Case 08: Bagging (group: BagLearner)
+NameError: name 'y_forecast_array' is not defined
+
+Test #16: failed 
+Description: InsaneLearner Test Case (group: InsaneLearner)
+IncorrectOutput: Test failed on one or more output criteria.
+  Inputs:
+    data file: simple.csv
+    permutation: [49 12  5  1 15 47 46  6 48 21 40 28 30 14 41 17 45 20 36  4 24 31 35 33
+  8 44 19  0 32 27  7 16 26 29 25  2 13  9  3 38 42 39 43 10 22 34 37 18
+ 23 11]
+  Failures:
+    Exception calling InsaneLearner: No module named 'InsaneLearner'
+
+Test #17: failed 
+Description: Random Classname Test Case (group: RandomName)
+IncorrectOutput: Test failed on one or more output criteria.
+  Inputs:
+    data file: simple.csv
+    permutation: [49 12  5  1 15 47 46  6 48 21 40 28 30 14 41 17 45 20 36  4 24 31 35 33
+  8 44 19  0 32 27  7 16 26 29 25  2 13  9  3 38 42 39 43 10 22 34 37 18
+ 23 11]
+  Failures:
+   Exception calling BagLearner: name 'y_forecast_array' is not defined
+
+</pre>
